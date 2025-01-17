@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ecf0f3;
+}
+.login-form{
+    width: 300px;
+    height: 500px;
+    background-color: #ecf0f3;
+    margin: 50px auto;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px #cbced1,
+    -10px -10px 15px white;
+}
+.title{
+    text-align: center;
+    text-transform:uppercase;
+    padding: 15px 0 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    
+}
+.sub-title{
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+
+}
+.fields {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 5px 5px 0px;
+}
+.fields input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+    padding: 15px 10px;
+}
+.username, .password{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 15px #cbced1,inset
+    -10px -10px 15px white;
+}
+.svg-icon, .password img{
+    height: 20px;
+    margin: 0px 8px -4px 25px;
+}
+
+.sing-button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgba(82, 208, 23, 0.7);
+    box-shadow: 3px 3px 10px #cbced1,
+                -3px -3px 11px #cbced1;
+    color: white;
+    font-size: 15px;
+    transition: all 0.5s;
+    
+}
+.sing-button:hover{
+    background-color:  #31601a;
+}
+.link{
+    text-align: center;
+    padding-top: 15px;
+}
+.link a {
+    text-decoration: none;
+    color: #aaa;
+    font-family: sans-serif;
+}
